@@ -1,0 +1,102 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    margin-bottom: 2em;
+}
+.nav-item{
+    padding-left: 5rem;
+}
+#t1{
+    padding: 1rem 0 2rem 0;
+}
+#im1{
+    border-radius: 8px;
+}
+#con{
+    color:#db3c58;
+    background-color:#faf1f3;
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+    border-radius: 40px;
+    display: inline-block;
+}
+.con-det{
+    float: right;
+    padding: 0 2em;
+}
+.carcap{
+    display: flex;
+    justify-content:space-between;
+}
+#bt1{
+    border-radius: 40px;
+    border: 1px solid lightgreen;
+    color: lightgreen;
+    background-color: #ffffff;
+    text-align: center;
+    width: 290px;
+    height: 50px;
+  }
+#vd{
+    display:flex; justify-content:space-between;
+    padding: 1rem 0 0.5rem 0;
+}
+#box1{
+    background-color: rgb(230, 230, 230);
+    padding: 30px 0;
+    margin: 88px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#box2{
+    background-color: rgb(230, 230, 230);
+    padding: 30px 0 30px 30px;
+    
+}
+#box2 a{
+    text-decoration: none;
+    display: block;
+    color:rgb(112, 110, 110);
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+#box3{
+    display:flex; justify-content:space-between;
+    padding: 1rem 0 2rem 0;
+}
+#box4{
+    padding-top: 30px;
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    border-radius: 5px;
+}
+.team{
+    display:flex; justify-content:space-between;
+    margin-bottom:20px;
+    
+}
+#box5{
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 2.7em;
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    border-radius: 5px;
+}
+#box6{
+    display:flex; justify-content:space-between;
+    padding: 1rem 0 0.5rem 0;
+    margin-bottom: 1rem;
+    
+}
+.news{
+    display:flex; justify-content:space-between;
+    margin-bottom:20px;
+}
+.seeall{
+    text-decoration: none;
+    color: black;
+    margin-top: 0.2em;
+}

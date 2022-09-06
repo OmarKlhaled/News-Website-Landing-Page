@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet">
+    <title>Demo</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">NEWS</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pools</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Magazine</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="row">
+          <div class="col">
+            <aside>
+                <div id="box1">
+                    <img src="./media/index.jpeg" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <p style="padding-top: 20px;">Omar Khaled</p>
+                </div>
+                <div id="box2">
+                    <h3 style="margin-bottom: 30px;">Categories</h3>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Politics</a>
+                    
+                </div>
+            </aside>
+          </div>
+          <div class="col-6">
+            <h3 id="t1">Today's Headlines</h3>
+            <div class="card mb-3">
+                <img src="./media/congress006-1.jpg" id="im1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div>
+                    <h5 class="card-title" id="con" href="#">Congress</h5>
+                    <span class="con-det">35K</span>
+                    <span class="con-det">35K</span>
+                    <span class="con-det">1.5M</span>
+                  </div>
+                  
+                  <div class="carcap">
+                    <h3 class="card-text">Dems see one last chance to boost public support for impeachment</h3>
+                    <button id="bt1">Save to pocket</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="vd">
+                <h3 id="t2">Video</h3>
+                <a href="#" class="seeall">See all</a>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                    <video width="280" height="240" controls>
+                        <source src="./media/movie.mp4" type="video/mp4">
+                        <source src="./media/movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                </div>
+                <div class="col">
+                    <video width="280" height="240" controls>
+                        <source src="./media/movie.mp4" type="video/mp4">
+                        <source src="./media/movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                </div>
+              </div>  
+          </div>
+          <div class="col">
+            <aside>
+                <div id="box3">
+                    <h3 id="t3">Sports News</h3>
+                    <a href="#" class="seeall">See all</a>
+                </div>
+                <div id="box4">
+                    <div class="team">
+                        <img src="./media/sp.png" alt="..." style="width: 15px; height: 25px;">
+                        <h5>Tottenham Hotspur</h5>
+                        <span style="font-size: 1.2em">0</span>
+                    </div>
+                    <div class="team">
+                        <img src="./media/rm.png" alt="..." style="width: 20px; height: 25px;">
+                        <h5 style="margin-left: -35px;">Real Madrid FC</h5>
+                        <span style="font-size: 1.2em">2</span>
+                    </div>
+                    <div style="color:rgb(112, 110, 110);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ad, em?</div>
+                    
+                </div>
+                <div id="box5">
+                    <div class="team">
+                      <img src="./media/mu.png" alt="..." style="width: 25px; height: 25px;">
+                        <h5>Manchester United</h5>
+                        <span style="font-size: 1.2em; margin-top: -2px;">0</span>
+                    </div>
+                    <div class="team">
+                      <img src="./media/Leicester_City_crest.png" alt="..." style="width: 25px; height: 25px;">
+                        <h5 style="margin-left: -55px">Leicester City</h5>
+                        <span style="font-size: 1.2em">2</span>
+                    </div>
+                    <div style="color:rgb(112, 110, 110);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ad, em?</div>
+                    
+                </div>
+                <div id="box6">
+                    <h3 id="t3">Political News</h3>
+                    <a href="#" class="seeall">See all</a>
+                </div>
+                <div class="news">
+                    <img src="./media/index.jpeg" alt="" style="border-radius:10px; margin-right: 15px;">
+                    <h5 style="margin-top: 5px;">Lorem ipsum dolor sit amet consectetur</h5>
+                </div>
+                <div class="news">
+                    <img src="./media/index.jpeg" alt="" style="border-radius:10px; margin-right: 15px;">
+                    <h5 style="margin-top: 5px;">Lorem ipsum dolor sit amet consectetur</h5>
+                </div>    
+                </div>
+            </aside>
+          </div>
+      
+    
+</body>
+</html>
